@@ -18,7 +18,7 @@
         <start-class>Application</start-class>
     </properties>
     <dependencies>
-        <!-- JavaFX dependencies for Mac optimization -->
+        <!-- JavaFX dependencies for cross-platform support -->
         <dependency>
             <groupId>org.openjfx</groupId>
             <artifactId>javafx-base</artifactId>
@@ -88,7 +88,7 @@
                 </configuration>
             </plugin>
             
-            <!-- JavaFX Maven Plugin for Mac optimization -->
+            <!-- JavaFX Maven Plugin for cross-platform support -->
             <plugin>
                 <groupId>org.openjfx</groupId>
                 <artifactId>javafx-maven-plugin</artifactId>
